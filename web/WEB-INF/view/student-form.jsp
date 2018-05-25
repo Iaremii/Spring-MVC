@@ -25,6 +25,17 @@
                 <<form:option value="Ukraine" label="Ukraine" />
                 <<form:option value="Poland" label="Poland" />
             </form:select>
+            <br>
+            Favorite language: 
+            C# <form:radiobutton path= "favoriteLanguage" value= "C#"/>    
+            Java <form:radiobutton path= "favoriteLanguage" value= "Java"/>    
+            C++ <form:radiobutton path= "favoriteLanguage" value= "C++"/>    
+            <br>
+            Operating Systems: 
+            Linux <form:checkbox path="operatingSystems" value="Linux"/>
+            MAC OS <form:checkbox path="operatingSystems" value="Mac Os"/>
+            MS Windows <form:checkbox path="operatingSystems" value="MS Windows"/>
+            <br>
             <input type= "submit" value = "Submit"/>
         </form:form>
     </body>
