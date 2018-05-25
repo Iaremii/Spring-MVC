@@ -13,7 +13,12 @@
     </head>
     <body>
         <h1>Welcome to my Page</h1>
+        <h3>
+            <br>
+            <a href="showForm"> Link to form </a>
+            <br>
+            <a href="student/showForm">Link to Student form</a>
+        </h3>
 
-        <a href="showForm"> Link to form </a>
     </body>
 </html>

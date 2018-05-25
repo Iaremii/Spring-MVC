@@ -1,6 +1,6 @@
 <%-- 
-    Document   : helloworld
-    Created on : May 25, 2018, 1:04:04 AM
+    Document   : student-confirmation
+    Created on : May 25, 2018, 1:11:19 PM
     Author     : Oleksandr
 --%>
 
@@ -12,12 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World of Spring!</h1>
+        <h2> The student is confirmed: ${student.firstName} ${student.secondName}</h2>
         <br>
-       <!-- Student name : ${param.studentName} -->
-       Student name : ${name}
-        <br>
-
-        <a href="/SpringMvcDemo">Back to main menu</a>
+        back to main-menu: 
+        <a href="/SpringMvcDemo">click here</a>
     </body>
 </html>
