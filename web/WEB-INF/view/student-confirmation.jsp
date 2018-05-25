@@ -9,10 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Student Page</title>
     </head>
     <body>
         <h2> The student is confirmed: ${student.firstName} ${student.secondName}</h2>
+        <br>
+        <h2> Country: ${student.country}</h2>
         <br>
         back to main-menu: 
         <a href="/SpringMvcDemo">click here</a>

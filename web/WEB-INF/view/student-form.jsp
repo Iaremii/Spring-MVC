@@ -18,6 +18,13 @@
             <br>
             Second Name: <form:input path="secondName"/>
             <br>
+            Country: 
+            <form:select path="country">
+                <<form:option value="Brazil" label="Brazil" />
+                <<form:option value="France" label="France" />
+                <<form:option value="Ukraine" label="Ukraine" />
+                <<form:option value="Poland" label="Poland" />
+            </form:select>
             <input type= "submit" value = "Submit"/>
         </form:form>
     </body>
