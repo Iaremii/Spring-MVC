@@ -18,6 +18,8 @@
             <a href="showForm"> Link to form </a>
             <br>
             <a href="student/showForm">Link to Student form</a>
+            <br>
+            <a href="customer/showForm">Link to Customer form</a>
         </h3>
 
     </body>
